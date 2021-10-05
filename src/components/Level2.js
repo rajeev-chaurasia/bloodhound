@@ -75,22 +75,22 @@ class Level2 extends React.Component {
 
   render() {
     return (
-      <div style={{ backgroundColor: "black" }}>
+      <div style={{ backgroundColor: "black", paddingBottom: "50px" }}>
         <p className="title">BloodHound - LEVEL 2</p>
         <div
           style={{
             display: "flex",
             flexDirection: "column",
-
             alignItems: "center",
-
             width: "100%",
             marginBottom: "20px",
           }}
         >
           <TeamForm
             level={2}
-            // url={}
+            url={
+              "https://sheet.best/api/sheets/2e4f4465-4fc8-41d7-bcb6-cb84f4e33e1d"
+            }
           />
         </div>
 
@@ -171,7 +171,7 @@ class Level2 extends React.Component {
                     <div>
                       <div
                         dangerouslySetInnerHTML={{
-                          __html: `<!-- Here is the link for Level 3: https://bloodhound-cognitia2021.netlify.app/welcomelevel3 -->`
+                          __html: `<!-- Here is the link for Level 3: https://bloodhound-cognitia2021.netlify.app/welcomelevel3 -->`,
                         }}
                       ></div>
                     </div>

@@ -18,25 +18,46 @@ class Level3 extends React.Component {
           <TeamForm
             level={3}
             url={
-              "https://sheet.best/api/sheets/3f5567d6-8da7-4f0c-8395-cba87c85b2b1"
+              "https://sheet.best/api/sheets/897ecf77-89e3-4715-9fac-8f7ec7cf0b11"
             }
           />
-          <div class="container">
-            <div>Listen to the video and open your eyes ..CC</div>
-            <div>
-              Striking the clock at 13 shows the path but you will reach the
-              destination at 20
+          <div class="container flexColumn">
+            <div
+              className="neonText p4"
+              style={{
+                marginTop: "25px",
+                marginBottom: "15px",
+                color: "dodgerblue",
+                fontSize: "25px",
+              }}
+            >
+              Listen to the video and open your eyes ..CC
             </div>
+
             <div>
               <iframe
+                className="p4"
                 width="560"
                 height="315"
+                style={{ borderRadius: "20px" }}
                 src="https://www.youtube.com/embed/69plhSVRSPU"
                 title="YouTube video player"
                 frameborder="0"
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowfullscreen
               ></iframe>
+            </div>
+            <div
+              className="neonText p4"
+              style={{
+                marginTop: "15px",
+                marginBottom: "15px",
+                color: "green",
+                fontSize: "30px",
+              }}
+            >
+              Striking the clock at 13 shows the path but you will reach the
+              destination at 20
             </div>
           </div>
         </div>

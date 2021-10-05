@@ -4,22 +4,28 @@ import TeamForm from "./TeamForm";
 class Level1 extends React.Component {
   render() {
     return (
-      <div style={{ backgroundColor: "black", minHeight: "950px" }}>
+      <div
+        style={{
+          backgroundColor: "black",
+          minHeight: "950px",
+          paddingBottom: "50px",
+        }}
+      >
         <p className="title">BloodHound - LEVEL 1</p>
         <div
           style={{
             display: "flex",
             flexDirection: "column",
-
             alignItems: "center",
-
             width: "100%",
             marginBottom: "20px",
           }}
         >
           <TeamForm
             level={1}
-            // url={}
+            url={
+              "https://sheet.best/api/sheets/c2cf4c6f-5bfb-4bfc-a7dd-12d53010edf8"
+            }
           />
         </div>
         <div>

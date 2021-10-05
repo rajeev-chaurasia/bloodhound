@@ -4,13 +4,14 @@ body {
   -ms-user-select: none;
   user-select: none;
 }
+
 .title {
   background-image: url(https://media3.giphy.com/media/sRFEa8lbeC7zbcIZZR/200w.webp?cid=ecf05e472n1utvlv05gtptifkgu55lzab7yt4uf1udb7th6u&rid=200w.webp&ct=g);
   background-size: cover;
   color: transparent;
   -moz-background-clip: text;
   -webkit-background-clip: text;
-  font-size: 20vh;
+  font-size: 8vw;
   margin-bottom: 30px;
   text-align: center;
 }
@@ -68,4 +69,73 @@ body {
 .level2Container {
   height: "100%";
   background-color: black;
+}
+.flexColumn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#bgimg {
+  background-image: url(../src/level3BG.jpg);
+  background-repeat: repeat;
+  background-size: 500px;
+  width: 70%;
+  padding: 200px;
+  border-radius: 40px;
+  margin: auto;
+  margin-top: 80px;
+}
+.jumbotron {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: rgba(0, 0, 0, 0.88);
+  border-radius: 40px;
+
+  color: white;
+}
+.text-center {
+  color: white;
+  text-align: center;
+}
+.btnLevel4 {
+  width: 40rem;
+  padding: 10px 50px 10px 50px;
+  border-radius: 10px;
+
+  background-color: green;
+  color: white;
+}
+.level5Hero {
+  background-image: url(../src/level5Hero.jpg);
+  background-repeat: repeat;
+  background-size: contain;
+  padding: 70px 30px 70px 30px;
+}
+.heroBox {
+  padding: 2rem 1rem;
+  margin-bottom: 2rem;
+  background-color: rgba(0, 0, 0);
+  border-radius: 40px;
+  color: white;
+}
+.flexRow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-self: center;
+  width: 50%;
+  margin: auto;
+}
+
+.p4 {
+  margin: 15px auto 15px auto;
+}
+
+#thankYou {
+  background-repeat: no-repeat;
+  width: "50px";
+  height: "50px";
+  padding: 100px;
+  background-image: url(https://media2.giphy.com/media/cOvgh3VjLmeg8LLBtk/200w.webp?cid=ecf05e47pgk8gxalgn3amcgi86dug5nw1w6a1qny6xz26mhs&rid=200w.webp&ct=g);
 }
