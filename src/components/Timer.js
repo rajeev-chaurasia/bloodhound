@@ -37,10 +37,10 @@ const Timer = () => {
       style={{
         display: "flex",
         justifyContent: "space-evenly",
-        width: "45%",
-        position: "absolute",
-        top: 500,
-        left: "20%",
+        width: "50%",
+
+        alignSelf: "center",
+        marginTop: "120px",
       }}
     >
       <CountdownCircleTimer

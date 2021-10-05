@@ -1,107 +1,83 @@
 import React from "react";
-import { Button } from "@mui/material";
-import Crossword, { ThemeProvider } from "@jaredreisinger/react-crossword";
 import TeamForm from "./TeamForm";
 
 class Level1 extends React.Component {
-  constructor(props) {
-    super(props);
-    this.cross = React.createRef();
-    this.state = {
-      showClue: false,
-    };
-  }
-
-  data = {
-    across: {
-      5: {
-        clue: "bundling of data with the methods(related to OOPs)",
-        answer: "ENCAPSULATION",
-        row: 4,
-        col: 0,
-      },
-      6: {
-        clue: "protocol used for secure communication over a computer network, widely used on the Internet",
-        answer: "HTTPS",
-        row: 9,
-        col: 4,
-      },
-      7: {
-        clue: "sorting algorithm that divides data into smaller groups , sorts them and then recombine",
-        answer: "MERGESORT",
-        row: 11,
-        col: 3,
-      },
-    },
-    down: {
-      1: {
-        clue: "a network of personal computers in a small area for sharing resources or exchanging data",
-        answer: "LAN",
-        row: 2,
-        col: 1,
-      },
-      2: {
-        clue: "can be linear(array) or non linear(tree)",
-        answer: "DATASTRUCTURE",
-        row: 0,
-        col: 5,
-      },
-      3: {
-        clue: "predefined , reserved words in programming language(e.g : C)",
-        answer: "KEYWORD",
-        row: 6,
-        col: 10,
-      },
-      4: {
-        clue: "software intermediary that allows two applications to talk to each other",
-        answer: "API",
-        row: 4,
-        col: 3,
-      },
-    },
-  };
-
-  checkResult = () => {
-    if (this.cross.current.isCrosswordCorrect())
-      this.setState({ showClue: true });
-    else this.setState({ showClue: false });
-  };
-
-  reset = () => {
-    this.cross.current.reset();
-  };
-
   render() {
     return (
-      <div>
-        <TeamForm
-          level={1}
-          url={
-            " https://sheet.best/api/sheets/e02ac799-7155-4ebe-b745-5c9ac179f318"
-          }
-        />
+      <div style={{ backgroundColor: "black", minHeight: "950px" }}>
+        <p className="title">BloodHound - LEVEL 1</p>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "column",
 
+            alignItems: "center",
+
+            width: "100%",
+            marginBottom: "20px",
+          }}
+        >
+          <TeamForm
+            level={1}
+            // url={}
+          />
+        </div>
         <div>
-          I am someone who is generally ignored by compiler and interpreter but
-          I make developers life easier. Meet me , I might be useful for you.
+          <p className="neonText">
+            Those who often deceive are often machiavellian
+          </p>
+          <p className="neonText">Their intentions are hidden in plainsight</p>
         </div>
-        <div style={{ width: "50%", backgroundColor: "black" }}>
-          <ThemeProvider
-            theme={{
-              columnBreakpoint: "9999px",
-              numberColor: "#fffff",
-              focusBackground: "#f00",
-              highlightBackground: "#f99",
-            }}
-          >
-            <Crossword data={this.data} ref={this.cross} />
-          </ThemeProvider>
+        <div>
+          <h5 style={{ color: "black" }}>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
+            nisl eros, pulvinar facilisis justo mollis, auctor consequat urna.
+            Morbi a bibendum metus. Donec scelerisque sollicitudin enim eu
+            venenatis. Duis tincidunt laoreet ex, in pretium orci vestibulum
+            eget. Class aptent taciti sociosqu ad litora torquent per conubia
+            nostra, per inceptos himenaeos. Duis pharetra luctus lacus ut
+            vestibulum. Maecenas ipsum lacus, lacinia quis posuere ut, pulvinar
+            vitae dolor. Integer eu nibh at nisi ullamcorper sagittis id vel
+            leo. Integer feugiat faucibus libero, at maximus nisl suscipit
+            posuere. Morbi nec enimLorem ipsum dolor sit amet consectetur
+            adipisicing elit. Maxime mollitia, molestiae quas vel sint commodi
+            repudiandae consequuntur voluptatum laborum numquam blanditiis harum
+            quisquam eius sed odit fugiat iusto fuga praesentium optio, eaque
+            rerum! Provident similique accusantium nemo autem. Veritatis
+            obcaecati tenetur iure eius earum ut molestias architecto voluptate
+            aliquam nihil, eveniet aliquid culpa officia aut! Impedit sit sunt
+            quaerat, odit, tenetur error, harum nesciunt ipsum debitis quas
+            aliquid. Reprehenderit, quia. Quo neque error repudiandae fuga? Ipsa
+            laudantium molestias eos sapiente officiis modi at sunt excepturi
+            expedita sint? Sed quibusdam recusandae alias error harum maxime
+            adipisci amet laborum. Perspiciatis minima nesciunt dolorem!
+            Officiis iure rerum voluptates a cumque velit quibusdam sed amet
+            tempora. Sit laborum ab, eius fugit doloribus tenetur fugiat,
+            temporibus enim commodi iusto libero magni deleniti quod quam
+            consequuntur! Commodi minima excepturi repudiandae velit hic maxime
+            doloremque. Quaerat provident commodi consectetur veniam similique
+            ad earum omnis ipsum saepe, voluptas, hic voluptates pariatur est
+            explicabo fugiat, https://google.com dolorum eligendi quam
+            cupiditate excepturi mollitia maiores labore suscipit quas? Nulla,
+            placeat. Voluptatem quaerat non architecto ab laudantium modi minima
+            sunt esse temporibus
+            sinhttps://bloodhound-cognitia2021.netlify.app/level2Faket culpa,
+            recusandae aliquam numquam totam ratione voluptas quod
+            exercitationem fuga. Possimus quis earum veniam quasi aliquam
+            eligendi, placeat qui corporis!kamfnjkabdfjjjjjnbf nbfbaff
+            nunc.https://bloodhound-cognitia2021.netlify.app/level2bloodhound
+            Phasellus bibendum turpis ut ipsum egestas, sed sollicitudin elit
+            convallis. Cras pharetra mi tristique sapien vestibulum lobortis.
+            Nam eget bibendum metus, non dictum maurisnim commodi iusto libero
+            magni deleniti quod quam consequuntur! Commodi minima excepturi
+            repudiandae velit hic maxime doloremque. Quaerat
+            https://bloodhound-cognitia2021.netlify.app/level2Wrong provident
+            commodi consectetur veniam similique ad earum omnis ipsum saepe,
+            voluptasa, placeat. Voluptatem quaerat non architecto ab laudantium
+            modi minima sunt esse. Nulla at tellus sagittis, viverra est a,
+            bibendum metus.
+          </h5>
         </div>
-        <Button onClick={this.reset}>Reset Crossword</Button>
-        <Button onClick={this.checkResult}>Check CrossWord</Button>
-        {this.state.showClue && (
-          <div>Link to Level 2 : http://localhost:3000/level2bloodhound</div>
-        )}
       </div>
     );
   }

@@ -1,7 +1,7 @@
 import React from "react";
 import TeamForm from "./TeamForm";
 
-class Level3 extends React.Component {
+class Level4 extends React.Component {
   render() {
     return (
       <div>
@@ -23,4 +23,4 @@ class Level3 extends React.Component {
   }
 }
 
-export default Level3;
+export default Level4;

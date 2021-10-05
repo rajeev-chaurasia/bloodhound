@@ -2,6 +2,7 @@ import React from "react";
 import axios from "axios";
 import { Button, Form, Container, Header } from "semantic-ui-react";
 import moment from "moment";
+import "../../src/style.css";
 
 export default class TeamForm extends React.Component {
   constructor(props) {
@@ -30,20 +31,33 @@ export default class TeamForm extends React.Component {
 
   render() {
     return (
-      <Container fluid className="container" style={{ padding: "20px" }}>
-        <Header as="h2">Team Details</Header>
+      <Container fluid className="container">
         <Form
           className="form"
-          style={{ width: "500px" }}
+          style={{
+            textAlign: "center",
+          }}
           onSubmit={this.submitHandler}
         >
           <Form.Field>
-            <label>Team Name</label>
+            <label
+              className="teamName"
+              style={{
+                color: "white",
+                marginBottom: "5px",
+                textAlign: "center",
+                fontSize: 25,
+              }}
+            >
+              Team Name
+            </label>
             <input
               type="text"
+              style={{ width: "50%", color: "black" }}
               name="teamName"
               value={this.state.teamName}
               placeholder="Enter your Team Name"
+              placeholderStyle={{ color: "black" }}
               onChange={this.changeHandler}
             />
           </Form.Field>
