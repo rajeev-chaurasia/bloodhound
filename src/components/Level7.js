@@ -88,6 +88,7 @@ const Level7 = () => {
         <a
           href="https://drive.google.com/file/d/1loRS6ste1UTeD-DizD7yYjppwqUh2gAN/view?usp=sharing"
           target="_blank"
+          rel="noreferrer"
           style={{ color: "white", fontSize: "25px" }}
         >
           Click here to move forward.

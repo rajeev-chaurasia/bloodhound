@@ -42,6 +42,7 @@ class Level4 extends React.Component {
               <a
                 href="https://drive.google.com/file/d/1bzMLpxECwrBBHI206D9RbJKraXq-Sd9U/view?usp=sharing"
                 target="_blank"
+                rel="noreferrer"
               >
                 <button class="btnLevel4" type="button" target="_blank">
                   Download

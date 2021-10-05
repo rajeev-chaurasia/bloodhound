@@ -47,6 +47,7 @@ class Level5 extends React.Component {
             <a
               href="https://twitter.com/BloodCognitia"
               target="_blank"
+              rel="noreferrer"
               style={{ color: "white", fontSize: "25px" }}
             >
               LET'S FIND
